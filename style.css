@@ -1,0 +1,67 @@
+body{
+    background: darkcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 100px;
+}
+.main-head{
+    color: aquamarine;
+    background-color: cadetblue;
+    
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px auto;
+    margin: 20px auto;
+    width: 70%;
+}
+
+.computer{
+    background: rgba(3, 204, 177, 0.356);
+    border-radius: 20px;
+    text-align: center;
+    padding:10px 20px;
+    margin: 0 auto;
+    width: 50%;
+}
+.computer h3{
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 5px ;
+    margin: auto;
+    width: 40%;
+    color: rgba(0, 0, 0, 0.562);
+}
+.computer .p2{
+   text-align: justify;
+   font-size: 20px;
+   color: blanchedalmond;
+}
+.p1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: blanchedalmond;
+
+}
+.image-text img{
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 90%;
+    height: auto;
+}
+.image-text{
+    position: relative;
+    color: rgb(4, 74, 77);
+    font-weight: bolder;
+}
+.bottom-right{
+    position: absolute;
+    bottom:16px;
+    right: 30px;
+}

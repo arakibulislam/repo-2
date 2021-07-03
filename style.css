@@ -12,7 +12,9 @@ body{
 .main-head{
     color: aquamarine;
     background-color: cadetblue;
-    
+    border: aquamarine 5px solid;
+    border-top: 0;
+    border-left: 0;
     border-radius: 50px;
     text-align: center;
     padding: 10px auto;
@@ -21,12 +23,15 @@ body{
 }
 
 .computer{
-    background: rgba(3, 204, 177, 0.356);
+    background: #03ccb15b;
     border-radius: 20px;
+    border: 5px solid blanchedalmond;
     text-align: center;
     padding:10px 20px;
     margin: 0 auto;
     width: 50%;
+    border-top: 0;
+    border-left: 0;
 }
 .computer h3{
     background-color: aquamarine;
@@ -36,7 +41,7 @@ body{
     width: 40%;
     color: rgba(0, 0, 0, 0.562);
 }
-.computer .p2{
+.p2{
    text-align: justify;
    font-size: 20px;
    color: blanchedalmond;
@@ -57,7 +62,7 @@ body{
 }
 .image-text{
     position: relative;
-    color: rgb(4, 74, 77);
+    
     font-weight: bolder;
 }
 .bottom-right{
@@ -65,3 +70,41 @@ body{
     bottom:16px;
     right: 30px;
 }
+.bottom-right a{
+    color: rgb(255, 255, 255);
+    background-color:rgba(2, 34, 29, 0.74);
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: tomato;
+
+}
+.computer1{
+    background: rgba(3, 204, 177, 0.356);
+    border-radius: 20px;
+    border: blanchedalmond 5px solid;
+    margin:20px auto;
+    text-align: center;
+    padding:10px 20px;
+    border-top: 0;
+    border-left: 0;
+    width: 50%;
+}
+.computer3{
+    background: rgba(3, 204, 177, 0.356);
+    border-radius: 20px;
+    margin:20px auto;
+    padding:10px 20px;
+  
+    width: 100%;
+}
+.hr-tag{
+    border: 1px solid blanchedalmond;
+    border-width: 1px;
+    border-radius: 15px;
+}
+
